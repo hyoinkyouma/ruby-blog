@@ -9,7 +9,7 @@ default: &default
 
 development:
   <<: *default
-  database:
+  database: avion_things
 
 test:
   <<: *default
